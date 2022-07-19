@@ -1,0 +1,152 @@
+/* ------- GLOBAL VARIABLES ------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e7f6f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  padding: 0.5rem;
+  color: #395b64;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  padding: 0.5rem;
+  color: #395b64;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  padding: 0.5rem;
+  color: #395b64;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2b7a7a;
+  transition: all 0.3s ease 0s;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 2.5rem;
+}
+
+ul li {
+  color: #395b64;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+  background-color: #395b64;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 1.3rem;
+}
+
+button:hover {
+  background-color: #2b7a7a;
+  transition: all 0.3s ease 0s;
+}
+
+button:focus {
+  outline: none;
+  background-color: #1c829e;
+}
+
+button a {
+  padding: 0.5rem;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button a:hover {
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+button a:focus {
+  outline: none;
+  background-color: #1c829e;
+}
+
+form {
+  font-family: "Montserrat", sans-serif;
+  padding: 12px 20px;
+  background-color: #a5c9ca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+/* ------- CLASS SELECTORS ------- */
+.time-container {
+  text-align: right;
+  display: block;
+}
+
+.row {
+  display: flex; /* equal height of the children */
+}
+
+.col {
+  flex: 1; /* additionally, equal width */
+  padding: 1em;
+}
+
+/* --- HEADER  --- */
+.quiz-header {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* --- QUIZ CONTAINER  --- */
+.quiz-container {
+  background-color: #a5c9ca;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  overflow: hidden;
+}
