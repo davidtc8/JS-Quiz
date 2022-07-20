@@ -171,8 +171,7 @@ function getScoreArray(scores) {
     const allScores = JSON.parse(scores)
     console.log(allScores)
     allScores.sort((a, b) => b.score - a.score)
-    return allScores.slice(0,3)
-    
+    return allScores.slice(0,3) 
 }
 
 // ----- TIMER FUNCTION & VARIABLES -----
