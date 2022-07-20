@@ -162,9 +162,12 @@ function showScore() {
     const scoreArray = getScoreArray(scores)
     const scoreHtml = scoreArray.map(score => `<li>${score.name}: ${score.score}</li>`).join('')
     quiz.innerHTML = `<h2>Scores!</h2>
-    <ul> 
-        ${scoreHtml}
-    </ul>`
+        <ul> 
+            ${scoreHtml}
+        </ul>
+        <button id="submit" onclick='window.location.reload();'>
+            Restart Quiz 
+        </button>`;
 }
 
 function getScoreArray(scores) {
